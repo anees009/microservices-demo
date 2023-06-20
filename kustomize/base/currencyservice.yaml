@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: gcr.io/google-samples/microservices-demo/currencyservice:v0.8.0
+        image: us.icr.io/anees_test/currencyservice:1.0
         ports:
         - name: grpc
           containerPort: 7000

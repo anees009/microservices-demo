@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: us.icr.io/anees_test/paymentservice:1.0
+        image: paymentservice
         ports:
         - containerPort: 50051
         env:

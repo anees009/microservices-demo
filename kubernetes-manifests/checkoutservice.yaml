@@ -40,7 +40,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: checkoutservice
+          image: us.icr.io/anees_test/checkoutservice:1.0
           ports:
           - containerPort: 5050
           readinessProbe:

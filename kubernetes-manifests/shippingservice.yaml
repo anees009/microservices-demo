@@ -40,7 +40,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: shippingservice
+        image: us.icr.io/anees_test/shippingservice:1.0
         ports:
         - containerPort: 50051
         env:

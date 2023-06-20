@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: adservice
+        image: us.icr.io/anees_test/adservice:1.0
         ports:
         - containerPort: 9555
         env:

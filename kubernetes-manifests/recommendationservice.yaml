@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: recommendationservice
+        image: us.icr.io/anees_test/recommendationservice:1.0
         ports:
         - containerPort: 8080
         readinessProbe:

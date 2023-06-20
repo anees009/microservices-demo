@@ -42,7 +42,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: frontend
+          image: us.icr.io/anees_test/frontend:1.0
           ports:
           - containerPort: 8080
           readinessProbe:
